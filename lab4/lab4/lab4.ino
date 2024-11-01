@@ -7,7 +7,7 @@ const unsigned long intervalBetweenData = 1000;
 
 void setup() {
   
-  // initialize serial communication at 9600 bits per second:
+  // initialize serial communication at 500000 bits per second:
   Serial.begin(500000);
 }
 
