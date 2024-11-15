@@ -107,7 +107,7 @@
 
     
       
-    brightness = 100+4*sin(1.0*TWOPI*millis()/1000);
+    brightness = 100+5*sin(1.0*TWOPI*millis()/1000);
     analogWrite(ledPin,brightness);
 
     
